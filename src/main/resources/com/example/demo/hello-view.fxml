@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox fx:id="vbox" alignment="CENTER" prefHeight="280.0" maxHeight="280" prefWidth="250.0" spacing="100.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+
+        <Button fx:id="volver" text="◀️" alignment="CENTER"/>
+
+
+        <!-- CARTA -->
+        <VBox fx:id="cartaMonstruo" alignment="TOP_CENTER"  maxWidth="300.0" prefWidth="300.0" maxHeight="360" prefHeight="360">
+                <Label fx:id="nombreEnCarta" text="Caballero durmiente" alignment="CENTER_LEFT" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+                    <padding>
+                        <Insets left="15"/>
+                    </padding>
+                    <font>
+                        <Font size="15"/>
+                    </font>
+                </Label>
+
+            <padding>
+                <Insets top="5"/>
+            </padding>
+        </VBox>
+
+
+
+        <!-- ATRIBUTOS -->
+        <VBox fx:id="cartaAtributos" alignment="CENTER"  maxWidth="300.0" prefWidth="300.0" maxHeight="280" prefHeight="280">
+
+            <Label fx:id="nombreMonstruo" alignment="CENTER" text="CABALLERO" maxWidth="300.0" prefWidth="300.0" prefHeight="20" maxHeight="20">
+              <font>
+                 <Font size="25.0" />
+              </font>
+                <padding>
+                    <Insets bottom="10"/>
+                </padding>
+
+            </Label>
+
+            <VBox fx:id="atributos" alignment="CENTER" maxWidth="300.0" prefHeight="300.0" prefWidth="250.0" spacing="20.0" xmlns:fx="http://javafx.com/fxml">
+                <padding>
+                    <Insets topRightBottomLeft="20" />
+                </padding>
+
+                <Button fx:id="tipo" onAction="#tipo" text="Tipo Fuego" />
+                <Button onAction="#fuerza" text="Fuerza - 80" />
+                <Button onAction="#vida" text="Vida - 60" />
+                <Button onAction="#defensa" text="Defensa - 0" />
+            </VBox>
+
+        </VBox>
+</HBox>
