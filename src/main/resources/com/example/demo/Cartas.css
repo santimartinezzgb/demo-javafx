@@ -1,0 +1,122 @@
+#vbox{
+    -fx-background-color: #FFEECA;
+}
+
+#tituloMisCartas {
+    -fx-font: bold;
+}
+
+.nombreCarta {
+    -fx-background-color: #2e1a06;
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font: bold;
+    -fx-font-size: 15px;
+    -fx-pref-width:30px;
+    -fx-max-width: 140px;
+}
+
+.carta {
+    -fx-border-color: #001522;
+    -fx-border-style: solid;
+    -fx-border-width: 5px;
+
+    -fx-pref-width: 190px;
+    -fx-pref-height: 280px;
+    -fx-max-width: 190px;
+    -fx-max-height: 280px;
+}
+
+.carta:hover {
+    -fx-border-color: #2e1a06;
+
+    -fx-effect: dropshadow( gaussian , #00ff00 , 5, 0.5 , 0 , 0 );
+    -fx-pref-height: 290px;
+    -fx-max-height: 290px;
+}
+
+
+#carta1{
+    -fx-background-image: url("1.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta2{
+    -fx-background-image: url("2.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta3{
+    -fx-background-image: url("3.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta4{
+    -fx-background-image: url("4.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta5{
+    -fx-background-image: url("5.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta6{
+    -fx-background-image: url("6.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta7{
+    -fx-background-image: url("7.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta8{
+    -fx-background-image: url("8.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta9{
+    -fx-background-image: url("9.png");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta10{
+    -fx-background-image: url("10.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta11{
+    -fx-background-image: url("11.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}
+
+#carta12{
+    -fx-background-image: url("12.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+}

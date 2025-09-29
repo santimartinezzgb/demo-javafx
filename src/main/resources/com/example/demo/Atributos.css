@@ -22,7 +22,7 @@
 
 
 #cartaMonstruo {
-    -fx-background-image: url('caballero.jpg');
+    -fx-background-image: url();
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
     -fx-background-size: cover;
     -fx-background-position: center;

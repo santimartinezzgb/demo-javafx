@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Font?>
+<VBox fx:id="vbox"
+      alignment="CENTER"
+      prefHeight="600.0" maxHeight="600" prefWidth="1400.0"
+      stylesheets="@Cartas.css"
+      xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.ControladorCartas">
+
+
+    <Label fx:id="tituloMisCartas"
+           text="Mis cartas">
+        <font>
+            <Font size="50"/>
+        </font>
+        <padding>
+            <Insets bottom="50"/>
+        </padding>
+    </Label>
+
+    <!-- FILA 1 -->
+    <HBox alignment="CENTER"
+          prefHeight="300.0" maxHeight="300"
+          prefWidth="1350.0" spacing="20.0">
+
+        <!-- CARTA 1-->
+        <VBox fx:id="carta1" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="LOBO GUARDIÁN" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+            </Label>
+        </VBox>
+
+        <!-- CARTA 2-->
+        <VBox fx:id="carta2" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="MOMIA" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 3-->
+        <VBox fx:id="carta3" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label  styleClass="nombreCarta" text="SIN NOMBRE" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 4-->
+        <VBox fx:id="carta4" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label  styleClass="nombreCarta" text="MINI CABALLERO" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 5-->
+        <VBox fx:id="carta5" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="REY VAMPIRO" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 6-->
+        <VBox fx:id="carta6" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label  styleClass="nombreCarta" text="SOLDADO" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+    </HBox>
+
+
+
+
+
+
+    <!-- FILA 2 -->
+    <HBox alignment="CENTER"
+          prefHeight="300.0" maxHeight="300"
+          prefWidth="1350.0" spacing="20.0">
+
+        <!-- CARTA 7-->
+        <VBox fx:id="carta7" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="T-SHARK" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 8-->
+        <VBox fx:id="carta8" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="GUADAÑA AZUL" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 9-->
+        <VBox fx:id="carta9" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="BIG SAPO" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 10-->
+        <VBox fx:id="carta10" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="VALKIRIA" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 11-->
+        <VBox fx:id="carta11" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label styleClass="nombreCarta" text="X" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+
+            </Label>
+
+        </VBox>
+
+        <!-- CARTA 12-->
+        <VBox fx:id="carta12" styleClass="carta" alignment="BOTTOM_CENTER">
+            <Label  styleClass="nombreCarta" text="MONJE LOCO" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
+            </Label>
+
+        </VBox>
+
+    </HBox>
+
+
+
+</VBox>

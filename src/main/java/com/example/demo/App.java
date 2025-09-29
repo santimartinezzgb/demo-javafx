@@ -2,15 +2,10 @@ package com.example.demo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Cursor;
 import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.HBox;
-import javafx.scene.layout.Priority;
-import javafx.scene.layout.Region;
 import javafx.stage.Stage;
 
-public class HelloApplication extends Application {
+public class App extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
@@ -18,11 +13,12 @@ public class HelloApplication extends Application {
         // Scene: contenido visual de la ventana
 
         // Objeto fxml
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("hello-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Cartas.fxml"));
 
-        // Escena de size-500 con el fmxl cargado
-        Scene scene = new Scene(fxmlLoader.load(), 1500, 880);
+        // Escena con el fmxl cargado
+        Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
 
+        // Título de la escena
         stage.setTitle("Ventana principal");
 
         // Cambiar contenido de la ventana principal
