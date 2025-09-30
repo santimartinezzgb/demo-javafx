@@ -9,17 +9,17 @@
       alignment="CENTER"
       prefHeight="280.0" maxHeight="280"
       prefWidth="250.0" spacing="100.0"
-      stylesheets="@Atributos.css"
+      stylesheets="@Atributos1.css"
       xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.example.demo.ControladorAtributos">
 
-        <Button fx:id="volver" text="◀️" alignment="CENTER"/>
+        <Button fx:id="volver" text="◀️" alignment="CENTER" onAction="#volverCartas"/>
 
         <!-- CARTA -->
         <VBox fx:id="cartaMonstruo" alignment="BOTTOM_CENTER"
               prefHeight="360" maxHeight="360"
               prefWidth="250" maxWidth="250">
-            <Label fx:id="nombreCarta" text="MAGO LOCO"
+            <Label fx:id="nombreCarta" text="LICÁNTROPO"
                    alignment="CENTER"
                    prefWidth="260" maxWidth="260"
                    prefHeight="30" maxHeight="30"/>

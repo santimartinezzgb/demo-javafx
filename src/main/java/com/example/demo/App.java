@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class App extends Application {
+
     @Override
     public void start(Stage stage) throws Exception {
 
@@ -13,7 +14,7 @@ public class App extends Application {
         // Scene: contenido visual de la ventana
 
         // Objeto fxml
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Atributos.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Intro.fxml"));
 
         // Escena con el fmxl cargado
         Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
@@ -27,4 +28,5 @@ public class App extends Application {
         // Mostrar ventana principal
         stage.show();
     }
+
 }

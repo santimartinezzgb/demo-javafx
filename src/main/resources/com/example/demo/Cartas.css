@@ -9,18 +9,13 @@
     -fx-font: bold;
 }
 
-.nombreCarta {
-    -fx-background-image: url("images/eliminar.jpg");
-    -fx-text-fill: #ffffff;
-    -fx-background-radius: 10px;
-    -fx-border-radius: 10px;
-    -fx-font: bold;
-    -fx-font-size: 15px;
-    -fx-pref-width:30px;
-    -fx-max-width: 140px;
-}
+
 
 .carta {
+    -fx-background-image: url("images/eliminar.jpg");
+    -fx-text-fill: #ffffff;
+    -fx-font: bold;
+    -fx-font-size: 20px;
     -fx-border-color: #001522;
     -fx-border-style: solid;
     -fx-border-width: 5px;
