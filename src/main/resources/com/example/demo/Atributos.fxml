@@ -16,19 +16,13 @@
         <Button fx:id="volver" text="◀️" alignment="CENTER"/>
 
         <!-- CARTA -->
-        <VBox fx:id="cartaMonstruo" alignment="TOP_CENTER"  maxWidth="300.0" prefWidth="300.0" maxHeight="360" prefHeight="360">
-                <Label fx:id="nombreEnCarta" text="Caballero durmiente" alignment="CENTER_LEFT" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30">
-                    <padding>
-                        <Insets left="15"/>
-                    </padding>
-                    <font>
-                        <Font size="15"/>
-                    </font>
-                </Label>
-
-            <padding>
-                <Insets top="5"/>
-            </padding>
+        <VBox fx:id="cartaMonstruo" alignment="BOTTOM_CENTER"
+              prefHeight="360" maxHeight="360"
+              prefWidth="250" maxWidth="250">
+            <Label fx:id="nombreCarta" text="MAGO LOCO"
+                   alignment="CENTER"
+                   prefWidth="260" maxWidth="260"
+                   prefHeight="30" maxHeight="30"/>
         </VBox>
 
 

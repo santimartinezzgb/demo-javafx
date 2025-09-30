@@ -1,5 +1,8 @@
 #vbox{
-    -fx-background-color: #FFEECA;
+    -fx-background-image: url("images/fondoAtributos.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
 }
 
 #volver {
@@ -17,12 +20,8 @@
     -fx-text-fill: #001522;
 }
 
-
-
-
-
 #cartaMonstruo {
-    -fx-background-image: url();
+    -fx-background-image: url("images/12.jpg");
     -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
     -fx-background-size: cover;
     -fx-background-position: center;
@@ -32,19 +31,20 @@
     -fx-border-style: solid;
     -fx-border-width: 10px;
 }
+
 #cartaMonstruo:hover{
-        -fx-border-color: gold;
+    -fx-border-color: gold;
 }
 /**/
-#nombreEnCarta {
-    -fx-font-weight: bold;
-    -fx-font-style: italic;
-    -fx-font-family: JetBrains Mono;
-    -fx-background-color: #B8D5E5;
-    -fx-border-width: 3px;
-    -fx-border-color: #0A73AD;
-    -fx-border-radius: 5px;
-    -fx-background-radius: 50px;
+#nombreCarta {
+    -fx-background-image: url("images/eliminar.jpg");
+    -fx-text-fill: #ffffff;
+    -fx-background-radius: 10px;
+    -fx-border-radius: 10px;
+    -fx-font: bold;
+    -fx-font-size: 15px;
+    -fx-pref-width:30px;
+    -fx-max-width: 140px;
 }
 
 

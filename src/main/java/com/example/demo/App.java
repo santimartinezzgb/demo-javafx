@@ -13,7 +13,7 @@ public class App extends Application {
         // Scene: contenido visual de la ventana
 
         // Objeto fxml
-        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Cartas.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Atributos.fxml"));
 
         // Escena con el fmxl cargado
         Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
