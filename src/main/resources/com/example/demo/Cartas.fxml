@@ -10,7 +10,7 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.image.Image?>
 <VBox fx:id="vbox"
-      alignment="CENTER" spacing="20"
+      alignment="CENTER" spacing="15"
       prefHeight="600.0" maxHeight="600" prefWidth="1400.0"
       stylesheets="@Cartas.css"
       xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
@@ -28,38 +28,23 @@
           prefWidth="1350.0" spacing="20.0">
 
         <!-- CARTA 1-->
-        <Button fx:id="carta1" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos1" text="LOBO GUARDIÁN">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta1" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos1"></Button>
 
         <!-- CARTA 2-->
-        <Button fx:id="carta2" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos2" text="MOMIA">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta2" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos2"></Button>
 
         <!-- CARTA 3-->
-        <Button fx:id="carta3" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos3" text="SIN NOMBRE">
-            <Label  styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta3" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos3"></Button>
 
         <!-- CARTA 4-->
-        <Button fx:id="carta4" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos4" text="MINI CABALLERO">
-            <Label  styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta4" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos4"></Button>
 
         <!-- CARTA 5-->
-        <Button fx:id="carta5" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos5" text="REY VAMPIRO">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta5" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos5"></Button>
 
         <!-- CARTA 6-->
-        <Button fx:id="carta6" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos6" text="SOLDADO">
-            <Label  styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta6" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos6"></Button>
     </HBox>
-
-
-
 
 
 
@@ -69,34 +54,22 @@
           prefWidth="1350.0" spacing="20.0">
 
         <!-- CARTA 7-->
-        <Button fx:id="carta7" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos7" text="T-SHARK">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta7" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos7"></Button>
 
         <!-- CARTA 8-->
-        <Button fx:id="carta8" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos8" text="GUADAÑA AZUL">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta8" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos8"></Button>
 
         <!-- CARTA 9-->
-        <Button fx:id="carta9" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos9" text="BIG SAPO">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta9" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos9"></Button>
 
         <!-- CARTA 10-->
-        <Button fx:id="carta10" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos10" text="VALKIRIA">
-            <Label styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta10" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos10"></Button>
 
         <!-- CARTA 11-->
-        <Button fx:id="carta11" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos11" text="X">
-            <Label styleClass="nombreCarta"  alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta11" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos11"></Button>
 
         <!-- CARTA 12-->
-        <Button fx:id="carta12" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos12" text="MONJE LOCO">
-            <Label  styleClass="nombreCarta" alignment="CENTER" prefWidth="260" maxWidth="260" prefHeight="30" maxHeight="30"></Label>
-        </Button>
+        <Button fx:id="carta12" styleClass="carta" alignment="BOTTOM_CENTER" onAction="#mostrarAtributos12"></Button>
     </HBox>
 
     <Button fx:id="botonVolver" text="volver al inicio" onAction="#volverInicio"

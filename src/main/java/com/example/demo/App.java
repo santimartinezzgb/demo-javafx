@@ -13,19 +13,11 @@ public class App extends Application {
         // Stage: ventana principal
         // Scene: contenido visual de la ventana
 
-        // Objeto fxml
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("Intro.fxml"));
 
-        // Escena con el fmxl cargado
         Scene scene = new Scene(fxmlLoader.load(), 1920, 1080);
-
-        // Título de la escena
-        stage.setTitle("Ventana principal");
-
-        // Cambiar contenido de la ventana principal
+        stage.setTitle("Monster Cards");
         stage.setScene(scene);
-
-        // Mostrar ventana principal
         stage.show();
     }
 

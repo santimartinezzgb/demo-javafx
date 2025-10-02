@@ -24,10 +24,26 @@
 }
 
 .botonInicio:hover {
-    -fx-pref-width: 270px;
-    -fx-max-width: 270px;
-
     -fx-text-fill: #00ff00;
+    -fx-font-style: italic;
     -fx-effect: dropshadow( gaussian , #00ff00 , 20, 0.5 , 0 , 0 );
 
+}
+
+#github {
+    -fx-font-weight: bold;
+
+    -fx-font-size: 15px;
+
+    -fx-border-radius: 10px;
+    -fx-border-color: white;
+    -fx-background-radius: 10px;
+
+    -fx-background-images: url("images/fondoAtributos");
+    -fx-text-fill: #ffffff;
+}
+
+#github:hover{
+    -fx-background-color: #cccccc;
+    -fx-text-fill: #000000;
 }

@@ -1,0 +1,56 @@
+#pantallaPrincipalOpciones {
+    -fx-background-image: url("images/fondoOpciones.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+#textoOpciones{
+    -fx-text-fill: #FFFFFF;
+    -fx-font-weight: bold;
+    -fx-font-size: 35px;
+}
+
+#cajaOpciones {
+    -fx-background-image: url("images/eliminar.jpg");
+        -fx-background-repeat: no-repeat;
+        -fx-background-size: cover;
+        -fx-background-position: center;
+    -fx-border-width: 10px;
+    -fx-border-color: #2e1a06;
+}
+
+#volver {
+    -fx-pref-width: 120px;
+    -fx-max-width: 120px;
+
+    -fx-pref-height: 40px;
+    -fx-max-height: 40px;
+
+    -fx-background-image: url("images/eliminar.jpg");
+    -fx-background-blend-mode: multiply;
+
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 18px;
+
+    -fx-border-width: 5px;
+    -fx-border-color: #2e1a06;
+}
+#volver:hover {
+    -fx-text-fill: #00ff00;
+    -fx-font-style: italic;
+    -fx-effect: dropshadow( gaussian , #00ff00 , 20, 0.5 , 0 , 0 );
+
+}
+.slider {
+    -fx-translate-y: 0;
+    -fx-translate-x: 0;
+    -fx-color: #ddffdd;
+}
+
+.opciones {
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15px;
+}

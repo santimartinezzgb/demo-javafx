@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<VBox fx:id="pantallaPrincipalOpciones"
+      xmlns="http://javafx.com/javafx"
+      stylesheets="@Opciones.css"
+      alignment="CENTER"
+      spacing="20"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.demo.ControladorOpciones"
+      prefHeight="400.0" prefWidth="600.0">
+
+    <VBox fx:id="cajaOpciones"
+          alignment="CENTER"
+          prefWidth="400" maxWidth="400"
+          prefHeight="300" maxHeight="300"
+          spacing="30">
+
+        <Label fx:id="textoOpciones"
+               text="Opciones"
+               alignment="CENTER">
+            <padding>
+                <Insets top="5"/>
+            </padding>
+        </Label>
+
+        <VBox spacing="5">
+            <Label styleClass="opciones" text="Volumen del música"/>
+            <Slider  min="0"
+                     max="100"
+                     value="50"
+                     showTickLabels="true">
+            </Slider>
+            <padding>
+                <Insets left="20" right="20"/>
+            </padding>
+        </VBox>
+
+        <VBox spacing="5">
+            <Label styleClass="opciones" text="Volumen del juego"/>
+            <Slider  min="0"
+                     max="100"
+                     value="50"
+                     showTickLabels="true">
+            </Slider>
+            <padding>
+                <Insets left="20" right="20"/>
+            </padding>
+
+        </VBox>
+
+        <VBox spacing="5">
+            <Label styleClass="opciones" text="Volumen del juego"/>
+            <Slider min="0"
+                    max="100"
+                    value="50"
+                    showTickLabels="true">
+            </Slider>
+            <padding>
+                <Insets left="20" right="20" bottom="10"/>
+            </padding>
+        </VBox>
+
+
+    </VBox>
+    <Button fx:id="volver"
+            text="Volver"
+            onAction="#volverInicio">
+        <padding>
+            <Insets topRightBottomLeft="4"/>
+        </padding>
+    </Button>
+</VBox>

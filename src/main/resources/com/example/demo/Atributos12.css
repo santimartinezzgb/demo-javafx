@@ -37,7 +37,7 @@
 }
 /**/
 #nombreCarta {
-    -fx-background-image: url("images/eliminar.jpg");
+    -fx-background-color: #001522;
     -fx-text-fill: #ffffff;
     -fx-background-radius: 10px;
     -fx-border-radius: 10px;

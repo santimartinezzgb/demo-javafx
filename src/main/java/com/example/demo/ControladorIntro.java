@@ -1,6 +1,7 @@
 package com.example.demo;
 
 import com.sun.tools.javac.Main;
+import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
@@ -25,5 +26,22 @@ public class ControladorIntro {
         Scene scene = new Scene(root, 1920, 1080);
         stage.setScene(scene);
         stage.show();
+    }
+
+
+    @FXML
+    private Button idOpciones;
+    @FXML
+    private void entrarOpciones() throws IOException {
+        Parent root = FXMLLoader.load(getClass().getResource("Opciones.fxml"));
+        Stage stage = (Stage) idOpciones.getScene().getWindow();
+        Scene scene = new Scene(root, 1920, 1080);
+        stage.setScene(scene);
+        stage.show();
+    }
+    @FXML
+    private void cerrarPrograma() {
+        Platform.exit();
+        System.exit(0);
     }
 }

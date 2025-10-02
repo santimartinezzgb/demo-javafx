@@ -30,7 +30,7 @@
     <!-- ATRIBUTOS -->
     <VBox fx:id="cartaAtributos" alignment="CENTER"  maxWidth="300.0" prefWidth="300.0" maxHeight="280" prefHeight="280">
 
-        <Label fx:id="nombreMonstruo" alignment="CENTER" text="CABALLERO" maxWidth="300.0" prefWidth="300.0" prefHeight="20" maxHeight="20">
+        <Label fx:id="nombreMonstruo" alignment="CENTER" text="SOLDADO" maxWidth="300.0" prefWidth="300.0" prefHeight="20" maxHeight="20">
             <font>
                 <Font size="25.0" />
             </font>
@@ -45,10 +45,10 @@
                 <Insets topRightBottomLeft="20" />
             </padding>
 
-            <Button fx:id="tipo" text="Tipo Fuego" />
-            <Button text="Fuerza - 80" />
-            <Button text="Vida - 60" />
-            <Button text="Defensa - 0" />
+            <Button fx:id="tipo" text="CABALLERO" />
+            <Button text="Fuerza - 20" />
+            <Button text="Vida - 30" />
+            <Button text="Defensa - 10" />
         </VBox>
 
     </VBox>
