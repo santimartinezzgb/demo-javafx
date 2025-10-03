@@ -38,12 +38,12 @@
         <Button  styleClass="botonInicio"
                  text="SALIR" onAction="#cerrarPrograma"/>
 
-        <Label fx:id="github"
+        <Button fx:id="btnGithub" onAction="#abrirEnlace"
         >Github: santimartinezzgb
             <padding>
                 <Insets topRightBottomLeft="10"/>
             </padding>
-        </Label>
+        </Button>
 
     </VBox>
     <padding>

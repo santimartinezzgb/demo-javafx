@@ -13,7 +13,7 @@
       xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
       fx:controller="com.example.demo.ControladorAtributos">
 
-        <Button fx:id="volver" text="◀️" alignment="CENTER" onAction="#volverCartas"/>
+        <Button fx:id="volver" text="◀" alignment="CENTER" onAction="#volverCartas"/>
 
         <!-- CARTA -->
         <VBox fx:id="cartaMonstruo" alignment="BOTTOM_CENTER"

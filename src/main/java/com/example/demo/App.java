@@ -2,8 +2,14 @@ package com.example.demo;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+
+import java.awt.*;
+import java.net.URI;
 
 public class App extends Application {
 
@@ -19,6 +25,8 @@ public class App extends Application {
         stage.setTitle("Monster Cards");
         stage.setScene(scene);
         stage.show();
+
     }
+
 
 }

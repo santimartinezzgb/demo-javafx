@@ -30,7 +30,7 @@
 
 }
 
-#github {
+#btnGithub {
     -fx-font-weight: bold;
 
     -fx-font-size: 15px;
@@ -40,10 +40,9 @@
     -fx-background-radius: 10px;
 
     -fx-background-images: url("images/fondoAtributos");
-    -fx-text-fill: #ffffff;
+    -fx-text-fill: #000000;
 }
 
-#github:hover{
-    -fx-background-color: #cccccc;
-    -fx-text-fill: #000000;
+#btnGithub:hover{
+    -fx-background-color: #aaddcc;
 }

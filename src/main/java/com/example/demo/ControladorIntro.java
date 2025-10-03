@@ -10,8 +10,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.IOException;
+import java.net.URI;
 import java.security.cert.Extension;
 
 public class ControladorIntro {
@@ -44,4 +46,15 @@ public class ControladorIntro {
         Platform.exit();
         System.exit(0);
     }
+
+
+    @FXML
+    private void abrirEnlace(){
+        try{
+            Desktop.getDesktop().browse(new URI("https://github.com/santimartinezzgb"));
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+    }
+
 }

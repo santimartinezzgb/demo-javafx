@@ -13,11 +13,10 @@
     -fx-pref-width: 20px;
     -fx-max-width: 20px;
         -fx-pref-height: 20px;
-        -fx-max-height: 20px;
+        -fx-max-height: 20px;x;
 }
 #volver:hover{
-    -fx-background-color: #FFFFFF;
-    -fx-text-fill: #001522;
+    -fx-background-color: #29546E;
 }
 
 #cartaMonstruo {

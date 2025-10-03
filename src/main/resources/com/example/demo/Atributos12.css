@@ -16,8 +16,7 @@
         -fx-max-height: 20px;
 }
 #volver:hover{
-    -fx-background-color: #FFFFFF;
-    -fx-text-fill: #001522;
+    -fx-background-color: #29546E;
 }
 
 #cartaMonstruo {
