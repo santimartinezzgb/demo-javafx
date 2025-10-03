@@ -12,7 +12,7 @@
 }
 
 #cajaOpciones {
-    -fx-background-image: url("images/eliminar.jpg");
+    -fx-background-image: url("images/fondoBotones.jpg");
         -fx-background-repeat: no-repeat;
         -fx-background-size: cover;
         -fx-background-position: center;
@@ -27,7 +27,7 @@
     -fx-pref-height: 40px;
     -fx-max-height: 40px;
 
-    -fx-background-image: url("images/eliminar.jpg");
+    -fx-background-image: url("images/fondoBotones.jpg");
     -fx-background-blend-mode: multiply;
 
     -fx-font-weight: bold;

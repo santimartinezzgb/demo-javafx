@@ -18,7 +18,7 @@
 
     <ImageView fitHeight="220.0" fitWidth="600.0" layoutX="100.0" layoutY="90.0">
         <image>
-            <Image url="@images/aa.png" />
+            <Image url="@images/miscartas.png" />
         </image>
     </ImageView>
 
