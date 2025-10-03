@@ -3,7 +3,7 @@
 Aplicación de escritorio desarrollada en **JavaFX** que simula una colección de cartas de monstruos.
 Esta demo permite al usuario visualizar su colección, ver detalles de cada carta y navegar entre pantallas de forma intuitiva.
 
----
+
 ## 📺 Funcionalidad principal
 
 ### 🏠 Pantalla de inicio
@@ -14,7 +14,7 @@ Al iniciar la aplicación, se muestra una pantalla principal con el **título "M
 - ⚙️ **Opciones** — (Actualmente sin funcionalidad específica o en desarrollo).
 - ❌ **Salir** — Cierra la aplicación.
 
----
+
 ### 🎴 Vistas de la app
 
 Pantalla principal
@@ -29,14 +29,14 @@ Opciones
 Atributos
 <img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/eb175337-6556-4234-9c61-133bf5bca666" />
 
----
+
 ## 🧠 Tecnologías utilizadas
 
 - Java
 - JavaFX
 - CSS
 
----
+
 ## 🛠️ Cómo ejecutar el proyecto
 
 ```bash
