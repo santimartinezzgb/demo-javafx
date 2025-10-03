@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.geometry.Insets?>
+<VBox fx:id="root"
+      alignment="CENTER" spacing="100"
+      prefHeight="300.0" maxHeight="300" prefWidth="1400.0"
+      stylesheets="@Intro.css"
+      xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.ControladorIntro">
+
+    <ImageView fitHeight="200.0" fitWidth="600.0" layoutX="100.0" layoutY="90.0">
+        <image>
+            <Image url="@images/fongo.png" />
+        </image>
+    </ImageView>
+
+
+    <VBox spacing="20"
+          alignment="CENTER"
+          prefHeight="200.0" maxHeight="200" prefWidth="1400.0">
+        <!-- <Button  styleClass="botonInicio"
+                 text="INICIAR"/> -->
+        <Button fx:id="idMisCartas"
+                styleClass="botonInicio"
+                text="MIS CARTAS" onAction="#mostrarCartas"/>
+        <Button fx:id="idOpciones"
+                styleClass="botonInicio"
+                 text="OPCIONES" onAction="#entrarOpciones"/>
+        <Button  styleClass="botonInicio"
+                 text="SALIR" onAction="#cerrarPrograma"/>
+
+        <Label fx:id="github"
+        >Github: santimartinezzgb
+            <padding>
+                <Insets topRightBottomLeft="10"/>
+            </padding>
+        </Label>
+
+    </VBox>
+    <padding>
+        <Insets bottom="200"/>
+    </padding>
+
+
+
+</VBox>
