@@ -94,5 +94,5 @@
 }
 
 #tipo:hover {
-    -fx-border-color: red
+    -fx-border-color: #00ff00;
 }
